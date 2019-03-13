@@ -1,0 +1,15 @@
+Erlang wrapper for Binn Serialisation.
+
+https://github.com/liteserver/binn/blob/master/spec.md
+
+Please note that this project is a dependency for other projects,
+currently the datastore project.  Deleting this project will break this.
+
+This is a partial implementation of the spec, receiving a list of
+basic types into Erlang.  This was all that was required for the
+project I was working on at the time.
+
+Reasons why this partial project has been exported to github:
+1) It provides useful functionality
+2) It is an important part of another project
+3) It could be useful to others
